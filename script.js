@@ -4,7 +4,7 @@ function firstWord(s)
 	let res="";
 	for (let index = 0; index < s.length; index++)
 	{
-		if (s[index]==" ")
+		if (s[index]==" " && index!=0)
 		{
 			return res;
 		}
