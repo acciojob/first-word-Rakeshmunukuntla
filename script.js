@@ -10,7 +10,7 @@ function firstWord(s)
 		}
 		else if (s[index]==" " && index==0)
 		{
-			 res+=s[index];
+			 continue;
 		}
 		else
 		{
