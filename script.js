@@ -1,9 +1,8 @@
 function firstWord(s)
 {
-  // your code here
-	
+  
 	let res="";
-	for (let index = 0; index < s.length(); index++)
+	for (let index = 0; index < s.length; index++)
 	{
 		if (s[index]==" ")
 		{
